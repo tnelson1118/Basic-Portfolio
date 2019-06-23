@@ -1,0 +1,93 @@
+/* Basic Portfolio Assignment */
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+
+
+body {
+    background-image: url("../images/email-pattern.png");
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Heading Style */
+
+h1 {
+    font: 'Georgia', Times, Times New Roman, serif;
+}
+
+header {
+    display: block;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+}
+
+.heading {
+    float: left;
+    background-color: teal;
+    color: white;
+}
+
+/* Content */
+
+.content {
+    flex: 1 0 auto;
+}
+
+/* Navigation */
+
+.navigation{
+    float: right;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.navigation li:not(:first-child):before {
+    content: " | ";
+}
+
+#bioimage {
+    width: 200px;
+    height: 200px;
+}
+
+/* Footer */
+
+footer {
+    position: sticky;
+    background-color: #666666;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+
+/* Clear Fix */
+
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
