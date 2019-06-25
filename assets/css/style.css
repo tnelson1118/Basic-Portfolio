@@ -1,1 +1,12 @@
 /* Basic Portfolio Assignment */
+
+body {
+    background-image: url(../images/email-pattern.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Fonts */
+
+h1, h3, h5 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
