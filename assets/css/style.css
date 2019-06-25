@@ -1,12 +1,12 @@
 /* Basic Portfolio Assignment */
 
 
-* {
-    box-sizing: border-box;
-}
+
 
 html, body {
     height: 100%;
+    align-content: center;
+    margin: 0px;
 }
 
 
@@ -25,11 +25,13 @@ h1 {
 }
 
 header {
-    display: block;
-    position: absolute;
-    width: 100%;
-    z-index: 1;
+    position: relative;
     background-color: white;
+    height: 75px;
+    width: 100%;
+    padding: 20px;
+    border-bottom: 10px;
+    border-bottom-color: #ccc;
 }
 
 .heading {
@@ -42,6 +44,22 @@ header {
 
 .content {
     flex: 1 0 auto;
+}
+
+.teal {
+    color: teal;
+}
+
+.main-content {
+    width: 960px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 50px 20px 80px;
+}
+
+.paragraph {
+    padding: 20px;
 }
 
 /* Navigation */
@@ -64,7 +82,11 @@ header {
     content: " | ";
 }
 
+/* Images */
+
 #bioimage {
+    float: left;
+    padding: 20px;
     width: 200px;
     height: 200px;
 }
@@ -77,6 +99,8 @@ footer {
     width: 100%;
     color: white;
     text-align: center;
+    border-top: 50px;
+    border-top-color: teal;
 }
 
 .footer {
@@ -86,8 +110,8 @@ footer {
 
 /* Clear Fix */
 
-.clearfix {
-    content: "";
+.clearfix::after {
+    content: " ";
     display: block;
     clear: both;
-}
+  }
