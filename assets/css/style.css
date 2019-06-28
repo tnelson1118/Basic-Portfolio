@@ -66,11 +66,10 @@ h1, h3, h5 {
 /* Header */
 
 header {
+    height: 75px;
     background-color: #ffffff;
     margin-bottom: 20px;
-    border-bottom: 20px;
-    border-bottom-color: #cccccc;
-
+    border-bottom: 8px solid #cccccc;
 }
 
 header h1 {
@@ -79,6 +78,7 @@ header h1 {
     padding: 15px;
     margin-left: 100px;
     float: left;
+    font-size: 2em;
 }
 
 header nav {
@@ -89,6 +89,7 @@ header nav {
 a {
     text-decoration: none;
     color: #777777;
+    font-size: 16px;
 }
 
 /* Images */
@@ -104,15 +105,40 @@ a {
 
 .clearfix h1 {
     color: #4aaaa5;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.textBox {
+    width: 960px;
+}
+
+#message {
+    width: 960px;
+    height: 250px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-size: 1.25em;
+    border: none;
+}
+
+form {
     color: #777777;
 }
 
 /* Clearfix */
 
 .clearfix {
+    border: 5px solid #dddddd;
     clear: both;
     background-color: #ffffff;
     margin-left: auto;
@@ -134,6 +160,7 @@ footer {
 }
 
 footer h5 {
+    font-size: .83em;
     padding-top: 30px;
     padding-bottom: 0;
 }
