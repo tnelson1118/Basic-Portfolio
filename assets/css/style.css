@@ -101,6 +101,37 @@ a {
     padding-right: 20px;
 }
 
+#floatLeft {
+    float: left;
+    padding-right: 25px;
+}
+
+img {
+    display: inline-block;
+    width: 250px;
+    height: 125px;
+}
+
+.box {
+    position: relative;
+    display: inline-block;
+}
+
+.box .text {
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 60%;
+    text-align: center;
+    width: 100%;
+    height: 25%;
+    background-color: #4aaaa5;
+    color: white;
+    padding-top: 10px;
+}
+
 /* Content */
 
 .clearfix h1 {
