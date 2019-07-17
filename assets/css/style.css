@@ -148,6 +148,10 @@ img {
     margin-bottom: 20px;
 }
 
+.clearfix a {
+    color: red;
+}
+
 p {
     font-size: 16px;
     line-height: 30px;
